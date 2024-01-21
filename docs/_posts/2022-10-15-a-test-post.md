@@ -2,7 +2,7 @@
 layout: post
 title:  "A test post"
 date:   2022-10-15 12:58:20 -0500
-categories: test
+tag: test
 ---
 A test post, prior to mass upload of old materials
 
