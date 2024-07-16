@@ -29,7 +29,10 @@ url: "https://sgurungp.github.io"
 github_username:  sgurungp
 
 # Build settings
-theme: minima
+# minima is the basic theme, present by default.
+## theme: minima
+remote_theme: pages-themes/cayman
+
 plugins:
   - jekyll-feed
 
