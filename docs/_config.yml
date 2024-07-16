@@ -29,7 +29,7 @@ url: "https://sgurungp.github.io"
 github_username:  sgurungp
 
 # Build settings
-theme: minimal
+theme: minima
 plugins:
   - jekyll-feed
 
