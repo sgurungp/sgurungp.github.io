@@ -9,12 +9,12 @@ One night last year, a man and his colleagues stood outside in the cold and film
 a [short selfie video](https://youtu.be/48I00K4nJJk 'Zelenskyy's video after Russian attack'). 
 The effect was electrifying. _We are here. We're going to fight._
 
-That message, from Ukrainian President Volodymyr Zelenskyy, was carried by a telco operator. 
+That message was carried by a telco operator. 
 When you post, or stream video, from your phone, it sets up a channel to carry the data across 
 the ether to the nearest cell tower, which in turn sends it to a piece of software,
 rather grandly called a packet core. Cell towers, packet cores, and all the infrastructure needed 
 to get your data to the Internet are run by telco operators. Now that we live in a world where a 
-tweet can move markets and a video can rally a country to fight, it's worth restating: 
+tweets and videos rally a populace to fight, it's worth restating: 
 this network stuff is _important_.
 
 It's also strangely difficult to make money at. Let's look at the 5-year stock performance for a few bellwethers:
@@ -77,5 +77,27 @@ are good at, and, if they won't, what should we do? There are a couple of ways t
    political reasons. 
    
 4. Consumers are fickle gods. Let's sell more to businesses.
-5. Shareholders above all. Squeeze every penny out of the customers that stay, and jettison the rest
 
+   Internet service. Private 5G networks. Office 365 seats. Security features. Operators could sell these and other products. But here's the
+   unpleasant secret about operators: the most lucrative products either have terrible margin or high customer acquisition costs for them.
+   An operator can sell a ten thousand 365 seats...but most of that money goes to Microsoft. They can sell Internet circuits
+   ("DIA", in the lingo) with their eyes closed...but it takes 60 days at best before the customer is generating money, because
+   the address has to be checked in a giant IT system to see if fiber passes the building, someone has to order a box for the customer, the customer
+   needs to successfully install the box (or the operator has to do a truck roll), ...and DIA is the *easy* case that, the one that
+   operator sales people love to sell. Try getting them to sell private 5G or hosted voice PBX services and they will nod and smile
+   and mentally calculate how much quicker their commission check arives if they just carry on selling Internet. 
+   
+6. Shareholders above all. Squeeze every penny out of the customers that stay, and jettison the rest
+
+   This is the easy button, up to a point. Did your bill go up, for no obvious reason? Congratulations, your operator
+   is in this bucket. Cell service is remarkably sticky (churn rates are under 2%, and 2% would be considered worryingly high).
+   What about the jettisoning part? If your operator serves fixed (landline) customers, they would love love *love* to be able to move these
+   customers over to cell service or junk them completely. Unfortunately regulators like the US FCC take a dim view of that, and it doesn't help
+   that the places with a lot of legacy landlines also tend to be in rural places that don't have good cell coverage. We won't see
+   any movement here until a more agreeable regaulatory and legislative environment takes shape. It's been possible to deliver voice over Internet and over cell service
+   for getting on 25 years and yet here we are, so I don't think much is going to happen here. Ironically the smaller telco operators,
+   who are closer to the communities that they serve than the national operators, might be in the vanguard here.
+
+So there you have it. If that all seems a little gloomy, it's not - more a recognition that despite the billboards, Super Bowl ads, analyst briefings, 
+and all the other assorted noise, an operator is a utility, and the market should treat it as such. It is high time that operators stopped 
+trying to convince the world that they are just like the cool kids in the Valley, and regained their self-respect as key providers of an essential infrastructure.
