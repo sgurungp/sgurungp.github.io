@@ -1,7 +1,7 @@
 ---
-layout: page
 title: About
-permalink: /about/
+tags: [ admin ]
+layout: page
 ---
 
 This blog is where I share things I know, and things I learn. It's always good to learn, right?

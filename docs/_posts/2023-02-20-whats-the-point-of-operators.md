@@ -1,8 +1,7 @@
 ---
+title: "What's the point of a telco?"
+tags: [ telecom, business ]
 layout: post
-title : "What's the point of a telco?"
-date  : 2023-02-20 19:00:20 -0500
-tags  : [ "telco", "business" ]
 ---
 
 One night last year, a man and his colleagues stood outside in the cold and filmed 
