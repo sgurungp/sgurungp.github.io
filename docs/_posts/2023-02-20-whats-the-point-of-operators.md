@@ -93,7 +93,7 @@ are good at, and, if they won't, what should we do? There are a couple of ways t
    What about the jettisoning part? If your operator serves fixed (landline) customers, they would love love *love* to be able to move these
    customers over to cell service or junk them completely. Unfortunately regulators like the US FCC take a dim view of that, and it doesn't help
    that the places with a lot of legacy landlines also tend to be in rural places that don't have good cell coverage. We won't see
-   any movement here until a more agreeable regaulatory and legislative environment takes shape. It's been possible to deliver voice over Internet and over cell service
+   any movement here until a more agreeable regulatory and legislative environment takes shape. It's been possible to deliver voice over Internet and over cell service
    for getting on 25 years and yet here we are, so I don't think much is going to happen here. Ironically the smaller telco operators,
    who are closer to the communities that they serve than the national operators, might be in the vanguard here.
 
