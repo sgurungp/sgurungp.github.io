@@ -33,6 +33,7 @@ github_username:  sgurungp
 ## theme: minima
 # Allegedly GH pages now supprots arbitrary remote themes. This needs investigation, but param and value example is below.
 remote_theme: pages-themes/cayman@v0.2.0
+remote_theme: daattali/beautiful-jekyll@6.0.1
 
 # If you use remote themes, add the jekyll-remote-theme plugin to the plugins list
 plugins:
@@ -41,7 +42,7 @@ plugins:
 
 ## Theme-specific settings
 # Don't show a download button.
-show_downloads: false
+# show_downloads: false
 
 # Exclude from processing.
 # The following items will not be processed, by default.
