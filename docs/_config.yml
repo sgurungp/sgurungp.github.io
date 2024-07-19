@@ -40,9 +40,37 @@ plugins:
   - jekyll-remote-theme
 
 ## Theme-specific settings
-# Don't show a download button.
-# show_downloads: false
+## Theme: beautiful-jekyll
+#
+navbar-links:
+  About Me: "about"
+  Contact:  "contact"
 
+# Links for socials in the footer
+social-network-links:
+  #github: sgurungp
+  linkedin: shriman
+
+# Select which social network share links to show in posts
+share-links-active:
+  twitter: true
+  linkedin: true
+
+# Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
+excerpt_length: 50
+
+# Whether or not to show an excerpt for every blog post in the feed page
+feed_show_excerpt: true
+
+# Whether or not to show a list of tags below each post preview in the feed page
+feed_show_tags: true
+
+# Add a search button to the navbar
+post_search: true
+
+## End of theme-specific settings
+
+#
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
