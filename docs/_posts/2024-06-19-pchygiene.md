@@ -14,7 +14,7 @@ I'm in the latter category, so this post is an attempt to record what my setup i
 
 ## Hardware
 There is always a temptation to blow serious coin on a dream laptop. But realistically, that power would sit idle 80% of the time.
-I'm not training AI models every day of the week, and frankly, when I need that sort of horsepower I can fire up what I need in the cloud for exactly as long as I need it. And since my gaming is done on a PlayStation, I'm free and clear of the main reasons to drop $$$. 
+I'm not training AI models every day of the week, and anyway, when I need that sort of horsepower I can fire up what I need in the cloud for exactly as long as I need it. And since my gaming is done on a PlayStation, I'm free and clear of the main reasons to drop $$$. 
 My PC budget is very lean, and I like it that way. Perhaps related, I am not testing out some bleeding-edge hardware and exercising new bugs. All ther drivers on my PC
 have already been through several rounds of updates by the time I get the hardware.
 
