@@ -4,10 +4,14 @@ tags: [ tech ]
 layout: post
 ---
 
+Today's TIL: some people have PC trouble that lasts for years, a sort of daily grind of not-quite-rightness with their PC. And some other people don't.
+I'm in the latter category, so this post is an attempt to record what my setup is and general principles of "PC hygiene".
+
 ## Hardware
 There is always a temptation to blow serious coin on a dream laptop. But realistically, that power would sit idle 80% of the time.
 I'm not training AI models every day of the week, and frankly, when I need that sort of horsepower I can fire up what I need in the cloud for exactly as long as I need it. And since my gaming is done on a PlayStation, I'm free and clear of the main reasons to drop $$$. 
-My PC budget is very lean, and I like it that way. 
+My PC budget is very lean, and I like it that way. Perhaps related, I am not testing out some bleeding-edge hardware and exercising new bugs. All ther drivers on my PC
+have already been through several rounds of updates by the time I get the hardware.
 
 My 2024 choice is a refurbished Dell Latitude 7490, which cost me [$400](https://www.pcliquidations.com/dell-refurbished-laptops) and is a *joy* to use: it's very light, it's fast, and Windows
 runs very smoothly. 
