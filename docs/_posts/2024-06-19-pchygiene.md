@@ -7,6 +7,11 @@ layout: post
 Today's TIL: some people have PC trouble that lasts for years, a sort of daily grind of not-quite-rightness with their PC. And some other people don't.
 I'm in the latter category, so this post is an attempt to record what my setup is and general principles of "PC hygiene".
 
+- [Hardware](#Hardware)
+- [Operating systemi](#OS)
+- [Applicationsi](#Applications)
+- [Preferred apps](#Preferred apps)
+
 ## Hardware
 There is always a temptation to blow serious coin on a dream laptop. But realistically, that power would sit idle 80% of the time.
 I'm not training AI models every day of the week, and frankly, when I need that sort of horsepower I can fire up what I need in the cloud for exactly as long as I need it. And since my gaming is done on a PlayStation, I'm free and clear of the main reasons to drop $$$. 
