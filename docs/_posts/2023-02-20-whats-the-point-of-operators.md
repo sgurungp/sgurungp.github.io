@@ -84,7 +84,7 @@ are good at, and, if they won't, what should we do? There are a couple of ways t
    the address has to be checked in a giant IT system to see if fiber passes the building, someone has to order a box for the customer, the customer
    needs to successfully install the box (or the operator has to do a truck roll), ...and DIA is the *easy* case that, the one that
    operator sales people love to sell. Try getting them to sell private 5G or hosted voice PBX services and they will nod and smile
-   and mentally calculate how much quicker their commission check arives if they just carry on selling Internet. 
+   and mentally calculate how much quicker their commission check arrives if they just carry on selling Internet. 
    
 6. Shareholders above all. Squeeze every penny out of the customers that stay, and jettison the rest
 
