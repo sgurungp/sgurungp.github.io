@@ -67,11 +67,24 @@ feed_show_tags: true
 # Add a search button to the navbar
 post_search: true
 
-## Per-page default settings that apply to all pages. Place here to bypass needing to 
-## set them in the front matter of indivudual pages.
-#defaults:
+# Add a button in the footer to edit the current page. Only works because we are hosted on GitHub
+edit_page_button: true
 
-## End of per-page default settings
+# Default YAML values (more information on Jekyll's site)
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true  # add comments to all blog posts
+      social-share: true # add social media sharing buttons to all blog posts
+  -
+    scope:
+      path: "" # any file that's not a post will be a "page" layout by default
+    values:
+      layout: "page"
 
 
 ## End of theme-specific settings
