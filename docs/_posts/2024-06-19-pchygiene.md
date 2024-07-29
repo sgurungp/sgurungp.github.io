@@ -82,7 +82,10 @@ maintaining, and removing apps. It is, to put it mildly, a huge improvement.
 
 I like [Chocolatey](https://docs.chocolatey.org/en-us/why/), which allows me to type things like 
 >`choco install dropbox`	*# install Dropbox*
-`choco upgrade all` 		*# upgrade all apps* 
+
+or
+
+> `choco upgrade all` 		*# upgrade all apps* 
 
 
 ## Preferred apps
@@ -91,9 +94,9 @@ For 2024:
  - **For video calls**: [Zoom](https://zoom.us/). Teams in corporate-land is (ignore the haters) very, very powerful, and only getting more so as Microsoft throw more at it. Teams for home users is a pale shadow of that beast and doesn't hold a candle to Zoom.
  - **For notes**: [Notepad++](https://notepad-plus-plus.org/). Text editing, note taking, and generally acting as a Swiss Army knife tool 
 when I need to manipulate some data. Note-taking apps are a deeply personal decision but after years of trying all kinds I've concluded that 
-simpler is better. The web ones tend to degrade over time (enshittification, etc.) Moreover the really important things about a note app are that it runs offline,  it starts and runs so quickly that it doesn't get in the way of your thoughts, and that it doesn't lose your notes. So buh-bye to OneNote, EverNote, and so on.
- - **For development**: [WSL2](https://learn.microsoft.com/en-us/windows/wsl/about) (Windows Subsystem for Linux). Remember I said their were better solutions than virtualization? Well, this is one. Gives me a full Linux environment
-   that lets me do git, code, editing, and anything else I can think of. (OK, there is virtualization going on under the covers, but with no effort on my part). 
+simpler is better. The web ones tend to degrade over time (enshittification, etc.) Moreover, the really important things about a note app are that it runs offline,  it starts and runs so quickly that it doesn't get in the way of your thoughts, and that it doesn't lose your notes. So buh-bye to OneNote, EverNote, and so on.
+ - **For development**: [WSL2](https://learn.microsoft.com/en-us/windows/wsl/about) (Windows Subsystem for Linux). Remember I said there were better solutions than virtualization? Well, this is one. Gives me a full Linux environment
+   that lets me do `git`, `vi`, and anything else I can think of. (OK, there is virtualization going on under the covers, but with no effort on my part). 
  - **PDF reader**: [SumatraPDF](https://www.sumatrapdfreader.org/). Adobe Acrobat is the de facto standard for PDFs, but that program tries and fails to do too much: I want to read PDFs, not be told that half the buttons on the
 screen won't work unless I upgrade to Adobe Cloud. SumatraPDF is faster to start up, faster at rendering long documents, and gives me exactly zero problems. 
  - **For backups**: [OneDrive](https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage) and [Dropbox](https://www.dropbox.com). As a file sharing service, OneDrive for consumers is...meh. As a seamless backup service, it's very good. My PC could blow up tomorrow, I could have a replacement in three days, and my Documents folder would hook up to OneDrive and I'd be back in business. The nit is that cloud services have a habit of evaporating overnight. So, Dropbox is my archival service, *just* in case.
