@@ -10,8 +10,10 @@ category, so this post is an attempt to record what my setup is and general prin
 
 - [Hardware](#Hardware)
 - [Operating system](#OS)
-- [Applications](#Applications)
-- [Preferred apps](#Preferred apps)
+- [Hygiene](#Hygiene)
+- [Apps](#Apps)
+- [Postscript](#Postscript)
+
 
 ## Hardware
 I admit it, I'm cheap. There is always a temptation to spend a lot of money on a dream 
@@ -46,7 +48,7 @@ I'm firmly in the Windows camp for one reason only: 365 native apps like Word an
 Sure, there are web versions, but try opening a long document or a complex spreadsheet. 
 Native 365 is better. 
 
-## Applications
+## Hygiene
 There are at least seven (seven!) ways to install software on your Windows PC:
 
  - Use the app installer from the supplier's website. For example, go to adobe.com and download Acrobat.
@@ -59,7 +61,7 @@ There are at least seven (seven!) ways to install software on your Windows PC:
 
 The classic complaint with the Windows experience is that it degrades over time. It's not 
 very surprising, when you consider all the ways that cruft can accumulate. I assert that cruft 
-is the #1 reason why PCs degrade over time. 
+is the #1 reason why PCs degrade over time. You want PC hygiene? You need to solve for this.
 
  - **Recommendation**: remove every last bit of optional software that Microsoft throws at you before you do anything with your PC. 
  
@@ -88,7 +90,7 @@ or
 > `choco upgrade all` 		*# upgrade all apps* 
 
 
-## Preferred apps
+## Apps
 For 2024:
  - **For productivity**: [Office 365](https://www.office.com/). Sorry web, sorry Google Docs, sorry LibreOffice, but you will pry 365 out of my cold, dead, hands. There is simply nothing like real Excel.
  - **For video calls**: [Zoom](https://zoom.us/). Teams in corporate-land is (ignore the haters) very, very powerful, and only getting more so as Microsoft throw more at it. Teams for home users is a pale shadow of that beast and doesn't hold a candle to Zoom.
@@ -103,5 +105,17 @@ screen won't work unless I upgrade to Adobe Cloud. SumatraPDF is faster to start
  - **Security, Anti-virus** etc: Microsoft's own suite is perfectly adequate for your PC. Ignore the desperate calls and back-handed attempts by some vendors to get you to install their stuff. Trust me, once you sign up for a 30-day trial of anything, that cruft is never leaving your PC. Avoid.
  - **Web browser**: [Edge](https://www.microsoft.com/en-us/edge) with [uBlock Origin](https://ublockorigin.com/) and [BitWarden](https://bitwarden.com). Edge does some skeevy things, like continually trying to populate my home page with fake news stories of the  "this one weird trick" and "you'll never believe what..." kind. But, it comes with Windows, supports plugins as well as Chrome, and runs very well on battery power when I'm unplugged. So, in keeping with the less-apps-installed-is-better rule, it gets a place. uBlock Origin is absolutely mandatory for all web browsers: Firefox, Chrome, Edge, whatever. The modern web is a cesspool of ads and it's a much calmer and faster experience to browse the web when you're not losing whole chunks of your screen and your attention to ads.
 
-So there you have it. Pick decent but cheap hardware, run as little a possible on it, and 
-keep track of what you install. Got a suggestion for 2025's stack? Let me know.
+## Postscript
+Closely related to the concept of PC hygiene is the idea of maximizing the attention you give to productive parts of the computing
+experience and ruthlessly pruning the rest. There was a time, for example, when I had three screens, each showing different apps. 
+I had the fancy keyboard and the themed desktop and so on. It did not make me significantly more productive. I could argue that having 
+attention stretched across so much of my visual field reduced it. 
+
+*The most important currency you have to be productive at work is your attention.* Before Slack, Discord, Teams, and the rest, you only had to turn off email in order to have periods of complete focus. If you lose that focus, having a six-screen battlestation with a light up keyboard and your favorite `vi` keybindings won't help you. 
+
+Try this experiment: go cold turkey for a week. One laptop, no external screen, no peripherals except what you need for ergonomic safety. Every app full screen. All notifications silenced. Use Outlook/Teams etc. in offline mode, so that *you* control when you turn on the firehose of attention-stealing apps. I'm very confident that it will change how your brain works using a PC for the better.
+
+So there you have it. Pick decent but cheap hardware, run as little a possible on it,  
+keep track of what you install, and protect your attention. 
+
+*Got a suggestion for 2025's stack? Let me know.*
