@@ -85,6 +85,7 @@ If you can't find the package that does what you want, you can create your own s
 imagine you are writing about sports teams, and you want every mention of the team name to be in small caps, 
 and colored blue. You can create a shorthand, like this:
 
+{% raw %}
 ```
 \usepackage{xcolor}
 
@@ -94,8 +95,10 @@ and colored blue. You can create a shorthand, like this:
         {#1}
         }%
     }
-
 ```
+
+{% endraw %}
+
 Then, you can write, say, `\team{Anytown College}` to get the style that you want.
 
 ### CLS files
