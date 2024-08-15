@@ -1,7 +1,7 @@
 ---
 title: "LaTeX for Word users - part 2"
 tags: [ tech, productivity ]
-usemathjax: true
+mathjax: true
 layout: post
 ---
 
