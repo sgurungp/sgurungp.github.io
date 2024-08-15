@@ -158,5 +158,5 @@ tell LaTeX what class of document it is, and away you go. Like so:
 ```
 
 
-In Part 2, we'll look at common requests from Word users and how to address them in LaTeX.
+In [Part 2](LaTeX-for-Word-users-part-2.html), we'll look at common requests from Word users and how to address them in LaTeX.
 
