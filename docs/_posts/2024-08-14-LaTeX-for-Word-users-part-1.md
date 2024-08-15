@@ -65,7 +65,9 @@ and 10-point type, among other things, whereas `report` and `letter` handle thin
 Settings can be overridden. For example, maybe you need A4 paper instead of US Letter, 
 or you want a different type size. No problem:
 
-> `\documentclass[a4paper,12pt]{letter}`
+```tex
+\documentclass[a4paper,12pt]{letter}
+```
 
 ### `usepackage`
 Sometimes you need more than what a document class can give you by itself. Maybe you are writing an article, 
@@ -120,6 +122,8 @@ in turn by your documents. For example:
 \RequirePackage{fancyhdr}   % For the top-of-page header
 \RequirePackage{hyperref}   % For live hyperlinks eg to make LinkedIn profiles clickable
 ```
+
+and then:
 
 ```tex
 %% snippet of a document that uses the class file
