@@ -1,6 +1,7 @@
 ---
 title: "LaTeX for Word users - part 1"
 tags: [ tech, productivity ]
+mathjax: true
 layout: post
 ---
 
@@ -49,7 +50,7 @@ for example, `\textbf{one two}` compared to `\textbf one two` .
 for a LaTeX command or comment, you can 'escape' it by preceding it with backslash: `\%` say. Use this technique when you need to write
 symbols such as # (hash sign), $ (dollar sign), _ (underscore), and either of {} (curly braces).
 
-```
+```tex
 The new model will be sold for under \$ 50.
 ``` 
  
@@ -73,7 +74,7 @@ but once you reach the limit of its capabilities, there is nowhere to go. By con
  functionality via packages. There are *thousands* of them. To import the capability of a package into your document, use 
 the `\usepackage` command, for example:
 
-``` 
+```tex 
 \usepackage{enumitem}
 \usepackage{fancyhdr}
 \usepackage{lastpage}
@@ -86,7 +87,7 @@ imagine you are writing about sports teams, and you want every mention of the te
 and colored blue. You can create a shorthand, like this:
 
 {% raw %}
-```
+```tex
 \usepackage{xcolor}
 
 \newcommand{\team}[1]{%
@@ -107,7 +108,7 @@ you like. At this point in Word you would create a `.dot` Word template file. In
 Class files can import their own packages, define new commands, inherit and modify document class options, and can be referenced
 in turn by your documents. For example:
 
-```
+```tex
 %% snippet of a class file, CoverLetterClass.cls
 %%
 \ProvidesClass{CoverLetterClass}[2024/07/29 My custom Cover Letter class]
@@ -120,7 +121,7 @@ in turn by your documents. For example:
 \RequirePackage{hyperref}   % For live hyperlinks eg to make LinkedIn profiles clickable
 ```
 
-```
+```tex
 %% snippet of a document that uses the class file
 \documentclass{CoverLetterClass}
 \begin{document}
@@ -136,7 +137,7 @@ online covering all kinds of use cases: resumes, business letters, presentations
 ### What packages do I need? What class should I use?
 There's no hard and fast rule here, but for a typical Word document, in a corporate environment, that has, say, bullets, numbered lists, page numbers, etc., a start would be to use the `article` class and the following packages:
 
-```
+```tex
 \documentclass{article}
 \usepackage{geometry}   % For page layout control
 \usepackage{enumitem}   % for bulleted and itemized lists
@@ -148,7 +149,7 @@ There's no hard and fast rule here, but for a typical Word document, in a corpor
 LaTeX tries to keep out of your way. So, start a new document file, import your packages and/or class file, 
 tell LaTeX what class of document it is, and away you go. Like so:
 
-```
+```tex
 \documentclass{...}
 \usepackage{...}
 \usepackage{...}
