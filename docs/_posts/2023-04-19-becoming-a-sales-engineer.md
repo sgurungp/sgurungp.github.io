@@ -30,4 +30,4 @@ Being a sales engineer (SE) is a noble undertaking, a lot of fun, and can make y
 
    Another red flag. Whose meeting is it? They are accountable for sourcing the content, the room/meeting link, the invites and all that jazz. You're job is to provide content matching the tenor and aims of the session in a consumable format. It is not to be the sales person's last-minute PowerPoint jockey in the lobby of a Marriott. Don't enable it.
    
-(Looking for good SEs? Hit me up on [LinkedIn](https://www.linkedin.com/in/shriman).)
+How did you score? Are there things you can do differently? [Let me know](https://www.linkedin.com/in/shriman).
