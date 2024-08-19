@@ -14,12 +14,13 @@ Let's look at some common scenarios that Word users hit when using LaTeX. If you
  - [Formatting paragraphs](#formatting-paragraphs)
  - [Headings](#headings)
  - [Lists](#lists)
- - [Symbols and Accents (diacritics)](#inserting-symbols-and-accented-characters/diacritics)
+ - [Symbols and Accents (diacritics)](#inserting-symbols-and-diacritics)
  - [Page control](#page-control)
  - [Hyperlinks](#hyperlinks-and-references)
  - [Headers and footers](#headers-and-footers)
  - [Tables](#tables)
  - [Graphics](#graphics)
+ - [Summary](#summary)
 
 ## Formatting words
 ```tex
@@ -138,7 +139,7 @@ up by adding `[noitemsep]` to the `begin` command, e.g.
 This is similar to how Word treats `[Enter]` and `[Shift][Enter]` differently
 in terms of how much whitespace to insert after a line.
 
-## Inserting symbols and accented characters/diacritics
+## Inserting symbols and diacritics
  - Most symbols on the (US) keyboard are typed as-is. Notable exceptions,
  that need to be escaped
  (see [Part 1](LaTeX-for-Word-users-part-1.html)
