@@ -1,5 +1,5 @@
 ---
-title: "LaTeX for Word users, part 1"
+title: "LaTeX for Word users, pt. 1"
 tags: [ tech, productivity ]
 mathjax: true
 layout: post
@@ -13,6 +13,12 @@ However, it has a steep learning curve. Whole communities have sprung up to try
  de facto standard for academic and technical publishing.
 So here is an informal guide that addresses the most common things that you, 
 a Word user, might need to do.
+
+# Contents
+ - [Where to get LaTeX](#where-to-get-latex)
+ - [Getting oriented](#getting-oriented)
+ - [Templates and styles](#templates-and-styles)
+ - [OK, I'm ready](#ok,-i'm-ready)
 
 ## Where to get LaTeX
 A good place to start is [Overleaf](https://www.overleaf.com), which provides a 
@@ -67,7 +73,9 @@ $ (dollar sign), _ (underscore), and either of {} (curly braces). More on this
 The new model will be sold for under \$ 50.
 ```
 
-## I want to create documents in a standard format
+## Templates and styles
+> *"All I want to do is create documents in a standard format"*
+
 Approximate equivalent in Word: templates and styles.
 
 ### `documentclass`
@@ -175,9 +183,14 @@ etc., a start would be to use the `article` class and the following packages:
 \usepackage{hyperref}    % Live hyperlinks, i.e., to make URLs clickable
 \usepackage{lastpage}    % "Page X of Y" support, e.g., in footers
 \usepackage{textcomp}    % Useful symbols, e.g. for currencies and trademark sign
+\usepackage{booktabs}	 % Rich control over tables
+\usepackage{siunitx}	 % Adds support for aligning columns on decimal points
+                         % e.g. for columns of currency amounts
+\usepackage{multirow}    % Support for merging columns and rows into single cells
+\usepackage{graphicx}    % Add support for graphics. Notice the 'x' in the name!
 ```
 
-## OK, I'm ready to get started.
+## OK, I'm ready
 LaTeX tries to keep out of your way. So, start a new document file, import your 
 packages and/or class file, tell LaTeX what class of document it is, and away 
 you go. Like so:
