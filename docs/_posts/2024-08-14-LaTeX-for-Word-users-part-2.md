@@ -1,5 +1,5 @@
 ---
-title: "LaTeX for Word users, part 2"
+title: "LaTeX for Word users, pt.2"
 tags: [ tech, productivity ]
 layout: post
 mathjax: true
@@ -16,12 +16,10 @@ Let's look at some common scenarios that Word users hit when using LaTeX. If you
  - [Lists](#lists)
  - [Symbols and Accents (diacritics)](#inserting-symbols-and-accented-characters/diacritics)
  - [Page control](#page-control)
- - [Hyperlinks](#hyperlinks)
+ - [Hyperlinks](#hyperlinks-and-references)
  - [Headers and footers](#headers-and-footers)
  - [Tables](#tables)
  - [Graphics](#graphics)
- - [Indexes](#Indexes)
- - [Footnotes](#footnotes)
 
 ## Formatting words
 ```tex
@@ -237,9 +235,9 @@ simply set the options that you want, e.g.:
 \geometry{letterpaper, portrait, lmargin=1in, rmargin=1in, top=1in}
 ```
 
-## Hyperlinks
+## Hyperlinks and references
 Use the `hyperref` package to add support for embedding hyperlinks in your
-document, like so:
+document, and then call `\href`, like so:
 
 ```tex
 \usepackage{hyperref}
@@ -247,6 +245,21 @@ document, like so:
 I used to use \href{https://en.wikipedia.org}{Wikipedia}. I still do, but I used to, too.
 You can reach us at \href{mailto: info@example.com}{info@example.com}.
 ```
+
+References are also useful for internal links within your document, what word
+would call a 'Cross-reference'. Suppose you label a table (see [Tables](#tables)) with:
+
+```tex
+\label{table:shopping}
+```
+
+You can then refer to it elsewhere in the document with
+```tex
+For more information see Table \ref{table:shopping}. 
+```  
+
+The reader will see (an automatically-generated) number, and be able to click on 
+it to go directly to the reference. (They will *not* see the label 'shopping'.) 
 
 ## Headers and footers
 LaTeX is wildly high-powered here, so the problem for Word users is not so much
@@ -285,8 +298,9 @@ footer, on the right `[R]`:
 ```
 
 ### Today's date
-Strictly, this is the date that the LaTeX file was compiled (which is the step
-before exporting to PDF, for most people). For example:
+The `\today` command is what you need. Strictly, this is the date that the 
+LaTeX file was compiled (which is the step before exporting to PDF, for most 
+people). For example:
 
 ```tex
 % Date in top center header
@@ -296,13 +310,148 @@ before exporting to PDF, for most people). For example:
 ```
 
 ## Tables
-@@@ todo
+Another case where LaTeX can be overwhelming. We'll show an example
+that is more than trivial, but still rich enough to cover most use cases from Word.
+
+Start by importing key packages:
+```tex
+\usepackage{booktabs}	% Rich control over tables
+\usepackage{siunitx}	% Adds support for aligning columns on decimal points
+						% e.g. for columns of currency amounts
+\usepackage{multirow}	% Support for merging columns and rows into single cells
+```
+
+Then, in the document, start a table definition with `\begin{table}`, set 
+options such as the number of columns, and how they shold align, and start
+entering your data. Here's the worked example:
+
+```tex
+% Start the table definition. Place the table inline with the rest of 
+% the document text (h!).
+%
+\begin{table}[h!]
+  
+  % Centered on the page
+  \centering
+
+  % Define the column layout. We want five columns, separated either by a 
+  % single- or double-line border (think of Word's Borders and Shading tool).
+  % The columns can be left- or right-aligned, or centered - l, r, and c here.
+  % S aligns on decimal points.
+  %
+  % Pro tip: Consider whether vertical lines separating columns are genuinely
+  % required, or only add visual noise. Your table may be more legible without
+  % them - in which case, delete the | characters.
+  \begin{tabular}{ | c || l | r | S | c |  }
+
+    % Whenever we what to draw a horizontal 'border' line, use \hline.
+    % The booktabs package also offers \toprule, \midrule, and \bottomrule,
+    % which some people prefer on aesthetic ground but \hline is closest to 
+    % the style produced by Word.
+    %	
+    \hline
+
+    % Column headers, here, in boldface. Notice the ampersand (&) between columns
+	% and the ending linebreak (\\).
+    \textbf{Category}     & 
+    \textbf{Product Name} & 
+    \textbf{SKU}          & 
+    \textbf{Unit Cost}    &
+    \textbf{Sale code}     \\
+    \hline
+
+    % You can now type in entries in the table, separating each column entry
+    % with ampersand (&) and ending each row of the table with \\.
+    Fish & Crab cakes & 3412 & \$5.99 & 872 \\
+    Dry goods & Soap & 5512 & \$1.49 & 87234 \\
+    \hline
+    
+    % Word's Merge Cell function is covered by multirow and multicolumn in LaTeX.
+    % Span the next three rows with the first column containing the word "Fruit".
+    % The asterisk asks LaTeX to calculate the width automatically.
+    \multirow{3}{*}{Fruit} &
+        Apples   & 4022  & \$ 1.29  &   004\\
+      & Oranges  & 3132  & \$ 0.49  &   248\\
+      & Grapes   & 78922 & \$ 11.99 &   008\\
+    \hline
+
+    % Span two rows. 
+    \multirow{2}{*}{Vegetables} &
+        Potatoes  & 3582 & \$0.99  & 012 \\
+      & Carrots   & 22998 & \$ 1.09     & 016 \\
+    \hline
+    
+    % Span all five columns, right-aligned
+    \multicolumn{5}{|r|}{\textit{Data retrieved, 2024-04-09}} \\
+    \hline
+
+  \end{tabular}
+
+  % Captions can be inserted before or after tables depending on where
+  % you want them to appear.
+  %
+  \caption{Table to test captions and labels.}
+  
+  % The label command makes it easier to cross reference the table from elsewhere
+  % in your document, using the \ref command, e.g. \ref{table:shopping} would 
+  % link the reader to the table that you had labeled 'shopping' inside your
+  % document. That is, the reader would not see the 'shopping' tag, but a number.
+  %
+  \label{table:shopping}
+  
+\end{table}
+```
 
 ## Graphics
-@@ todo
+To insert an image from a file, import the `graphicsx` package and set the path 
+to the folder containing the image(s) you will use. The path can be relative to 
+the current directory (where your LaTeX document is) or absolute.
 
-## Indexes
-@@@ todo
+```tex
+\usepackage{graphicx}	% Add support for Graphics. Notice the 'x' in the name!
 
-## Footnotes
-@@@ todo
+% Set the path, according to your system type and need, e.g.
+\graphicspath{ { C:/path/to/images/} }	  % Windows, absolute path
+
+% Alternatives: (use only one, and comment out or remove the others):
+\graphicspath{ { ./images/         } }   % Windows/Mac/Linux, relative path
+\graphicspath{ { /path/to/images   } }	  % Mac/Linux, absolute path
+```
+
+Within the body of the document, call the `\includegraphics` command with the 
+name of the file (the extension is not normally needed), e.g.:
+```tex
+\includegraphics{monalisa}
+```tex
+
+For more 'formal' image embedding, e.g. you want to be able to cite the picture
+such as "see Figure 1", create a `figure` block, as in this example:
+
+```tex
+% Define a new figure (graphic). Place it inline with the rest of 
+% the document text.
+\begin{figure}[h!]
+
+  % Center the image on the page
+  \centering
+  
+  % Import the file "monalisa" (.png, .jpg, etc.)
+  % Scale the image to be 0.5 times the width of a line. You can of course 
+  % vary this to suit.
+  %
+  % Pro tip: to draw a border around the image, put the call to \includegraphics
+  % inside \fbox{ ... }.
+  %
+  \includegraphics[width=0.5\linewidth]{monalisa}
+  
+  % Caption and label the image.
+  \caption{The Mona Lisa}
+  \label{fig:art01}
+ \end{figure}
+``` 
+
+## Summary
+These notes are not intended to represent the "best" or "only" way to use LaTeX 
+if you come from Word. But I hope that I have been able to explain how LaTeX
+thinks about documents, how it differs from Word, and how some of the most
+common operations in Word might look in LaTeX. Got any comments? Let me know.
