@@ -186,9 +186,13 @@ Word converts opening and closing quotation marks into a more visually-pleasing
 pair of "smart quotes". To get this effect in LaTeX, use one or two backquotes
 `` ` `` to open and the matching single `'` or `"` to close.
 
+![LaTeX sample: badquotes]({{ '/assets/imgs/latex-sample-badquotes.png' | relative_url }})
+
 ```tex
 ``Happiness", she said, ``is a full order book."
 ```
+
+![LaTeX sample: goodquotes]({{ '/assets/imgs/latex-sample-goodquotes.png' | relative_url }})
 
 ## Page control
 LaTeX, like Word, will handle page breaks for you. The `article` document
@@ -443,16 +447,18 @@ such as "see Figure 1", create a `figure` block, as in this example:
   % Scale the image to be 0.5 times the width of a line. You can of course 
   % vary this to suit.
   %
-  % Pro tip: to draw a border around the image, put the call to \includegraphics
-  % inside \fbox{ ... }.
+  % Pro tip: to remove the border around the image, remove the call to \fbox
+  % that surrounds \includegraphics{ ... }.
   %
-  \includegraphics[width=0.5\linewidth]{monalisa}
+  \fbox{ \includegraphics[width=0.5\linewidth]{monalisa} }
   
   % Caption and label the image.
   \caption{The Mona Lisa}
   \label{fig:art01}
  \end{figure}
 ``` 
+
+![LaTeX sample: image]({{ '/assets/imgs/latex-sample-image.png' | relative_url }})
 
 ## Summary
 These notes are not intended to represent the "best" or "only" way to use LaTeX 
