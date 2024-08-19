@@ -323,7 +323,7 @@ Start by importing key packages:
 ```
 
 Then, in the document, start a table definition with `\begin{table}`, set 
-options such as the number of columns, and how they shold align, and start
+options such as the number of columns, and how they should align, and start
 entering your data. Here's the worked example:
 
 ```tex
@@ -402,6 +402,10 @@ entering your data. Here's the worked example:
   
 \end{table}
 ```
+
+It produces this:
+![LaTeX sample: table](/assets/img/latex-sample-table.png)
+
 
 ## Graphics
 To insert an image from a file, import the `graphicsx` package and set the path 
