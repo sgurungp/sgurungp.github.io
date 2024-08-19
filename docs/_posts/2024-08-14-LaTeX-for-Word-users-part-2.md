@@ -1,6 +1,7 @@
 ---
 title: "LaTeX for Word users - part 2"
 tags: [ tech, productivity ]
+mathjax: true
 layout: post
 ---
 
@@ -15,6 +16,15 @@ Let's look at some common scenarios that Word users hit when using LaTeX. If you
 \textit{This will be in italics}
 \underline{These words will be underlined}
 ```
+
+```math
+\textbf{This text will be in boldface}
+\textit{This will be in italics}
+\underline{These words will be underlined}
+```
+
+$a^2$ is a squared
+
 The `ulem` package provides even more options e.g., double-underline (`\uuline`) and strikethrough (`\sout`).
 
 ## Formatting paragraphs

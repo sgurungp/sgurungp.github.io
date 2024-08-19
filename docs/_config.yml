@@ -31,7 +31,7 @@ github_username:  sgurungp
 # Build settings
 # minima ('theme: minima') is the basic theme, present by default.
 # GitHub pages now supports arbitrary remote themes, which can offer richer function.
-remote_theme: daattali/beautiful-jekyll@6.0.1
+remote_theme: daattali/beautiful-jekyll
 
 # If you use remote themes, add the jekyll-remote-theme plugin to the plugins list
 plugins:
