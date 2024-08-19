@@ -404,7 +404,7 @@ entering your data. Here's the worked example:
 ```
 
 It produces this:
-![LaTeX sample: table]({{ '/assets/img/latex-sample-table.png' | relative_url }})
+![LaTeX sample: table]({{ '/assets/imgs/latex-sample-table.png' | relative_url }})
 
 ## Graphics
 To insert an image from a file, import the `graphicsx` package and set the path 
