@@ -391,7 +391,7 @@ entering your data. Here's the worked example:
   % Captions can be inserted before or after tables depending on where
   % you want them to appear.
   %
-  \caption{Table to test captions and labels.}
+  \caption{Store line items for consideration.}
   
   % The label command makes it easier to cross reference the table from elsewhere
   % in your document, using the \ref command, e.g. \ref{table:shopping} would 
