@@ -72,7 +72,7 @@ over how the hyphenation and line breaking works on the short lines that
 columns tend to have.
 
 ## Headings
-Word has the notion of Headings in the Style Gallery - Heading1, Heading 2,
+Word has the notion of Headings in the Style Gallery: Heading1, Heading 2,
 Title, and so on. These styles determine formatting and also influence actions
 such as creation of a table of contents. Broadly speaking, LaTeX has the notion
 of "sections" and "sub-sections" instead of multi-level headings.
@@ -87,7 +87,7 @@ of the table of contents is very easy.
 \section{Background}
   You can start a new section at any time, and LaTeX will number them automatically.
   ...
-  \subsection{Events of Oct 2023}
+  \subsection{Event timeline}
   You can include subsections, and subsubsections, to drill down further.
   ...
 \section*{Risk assessment}
@@ -163,17 +163,17 @@ in terms of how much whitespace to insert after a line.
 ## Inserting symbols and diacritics
  Most symbols on the (US) keyboard are typed as-is. Notable exceptions,
  that need to be escaped
- (see [Part 1](LaTeX-for-Word-users-part-1.html)
+ (see [Part 1](LaTeX-for-Word-users-part-1.html))
  are, more or less, the symbols you see on the number row of the (US) keyboard
  (`~`, `!`, `@`, `#`, ..., `_`), `\`,
- and `{}`. If in doubt, try it out!
+ and `{}`. If in doubt, try it out.
 
 ### Accents/diacritics
  Characters with diacritics used in Western (Latin script) languages,
  such as in the French word "théorèmes", can be typed directly into LaTeX,
  assuming your keyboard supports it. However, you should add the `fontenc`
  package with the `T1` option to your document, so that LaTeX encodes such
- characters more effectively (important if you are going to share PDFs
+ characters effectively (important if you are going to share PDFs
  generated with LaTeX).
 
 ```tex
@@ -244,7 +244,7 @@ is the closest to Word's *Insert Page Break* command.
 ```
 
 Conversely, if you want to keep a block of text from being split across two pages,
- then `\samepage` and sometimes `\nopagebreak` is what you need:
+ then `\samepage`, and sometimes `\nopagebreak`, are what you need:
 
 ```tex
 \begin{samepage}
@@ -258,7 +258,7 @@ Conversely, if you want to keep a block of text from being split across two page
 ```
 
 ### Margins and paper size
-The `geometry` package is what you need. After importing it
+Use the `geometry` package. After importing it 
 (`\usepackage{geometry}`) and before starting the document (`\begin{document}`)
 simply set the options that you want, e.g.:
 
@@ -278,20 +278,20 @@ I used to use \href{https://en.wikipedia.org}{Wikipedia}. I still do, but I used
 You can reach us at \href{mailto: info@example.com}{info@example.com}.
 ```
 
-References are also useful for internal links within your document, what word
+References are also useful for internal links within your document, what Word
 would call a 'Cross-reference'. Suppose you label a table (see [Tables](#tables)) with:
 
 ```tex
 \label{table:shopping}
 ```
 
-You can then refer to it elsewhere in the document with
+You can refer to it elsewhere in the document with
 ```tex
 For more information see Table \ref{table:shopping}. 
 ```  
 
 The reader will see (an automatically-generated) number, and be able to click on 
-it to go directly to the reference. (They will *not* see the label 'shopping'.) 
+it to go to the reference. (They will *not* see the label 'shopping'.) 
 
 ## Headers and footers
 LaTeX is wildly high-powered here, so the problem for Word users is not so much
@@ -378,8 +378,8 @@ entering your data. Here's the worked example:
 
     % Whenever we what to draw a horizontal 'border' line, use \hline.
     % The booktabs package also offers \toprule, \midrule, and \bottomrule,
-    % which some people prefer on aesthetic ground but \hline is closest to 
-    % the style produced by Word.
+    % which some people prefer on aesthetic grounds, but \hline is closest
+    % to the style produced by Word.
     %	
     \hline
 
@@ -459,8 +459,8 @@ name of the file (the extension is not normally needed), e.g.:
 \includegraphics{monalisa}
 ```tex
 
-For more 'formal' image embedding, e.g. you want to be able to cite the picture
-such as "see Figure 1", create a `figure` block, as in this example:
+For more 'formal' image embedding, e.g. you want to be able to cite the picture, 
+such as, "see Figure 1", create a `figure` block, as in this example:
 
 ```tex
 % Define a new figure (graphic). Place it inline with the rest of 
