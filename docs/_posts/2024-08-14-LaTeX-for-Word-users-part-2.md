@@ -161,7 +161,7 @@ This is similar to how Word treats `[Enter]` and `[Shift][Enter]` differently
 in terms of how much whitespace to insert after a line.
 
 ## Inserting symbols and diacritics
- - Most symbols on the (US) keyboard are typed as-is. Notable exceptions,
+ Most symbols on the (US) keyboard are typed as-is. Notable exceptions,
  that need to be escaped
  (see [Part 1](LaTeX-for-Word-users-part-1.html)
  are, more or less, the symbols you see on the number row of the (US) keyboard
@@ -169,7 +169,7 @@ in terms of how much whitespace to insert after a line.
  and `{}`. If in doubt, try it out!
 
 ### Accents/diacritics
- - Characters with diacritics used in Western (Latin script) languages,
+ Characters with diacritics used in Western (Latin script) languages,
  such as in the French word "théorèmes", can be typed directly into LaTeX,
  assuming your keyboard supports it. However, you should add the `fontenc`
  package with the `T1` option to your document, so that LaTeX encodes such
@@ -181,7 +181,7 @@ in terms of how much whitespace to insert after a line.
 ```
 
 ### Currency
- - the `fontenc`/`T1` combination also provides better results when you type
+ The `fontenc`/`T1` combination also provides better results when you type
  common currency symbols directly. To be very explicit, or if you don't have
  the symbols on your keyboard (e.g., you are in the US, and want to use the
  UK Pound symbol), import the `textcomp` package.
@@ -189,9 +189,12 @@ in terms of how much whitespace to insert after a line.
 ```tex
 \usepackage{textcomp}
 ...
-In the US, an orange costed 49 \textcent in 1950, and \textdollar 1 today.
-In the UK, it costs \textsterling 2.50.
+In the US, an orange cost 49{\textcent} in 1950, and {\textdollar}1 today.
+In the UK, it costs {\textsterling}2.50, and in Japan, {\textyen}300.
 ```
+
+![LaTeX sample: currencyformats]({{ '/assets/imgs/latex-sample-currencyformats.png' | relative_url }})
+
 
 ### Other symbols
 If you know what your symbol should look like, but you don't know what package
