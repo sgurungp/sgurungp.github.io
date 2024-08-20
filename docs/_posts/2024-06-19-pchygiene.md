@@ -16,7 +16,7 @@ category, so this post is an attempt to record what my setup is and general prin
 
 
 ## Hardware
-I admit it, I'm cheap. There is always a temptation to spend a lot of money on a dream 
+There is always a temptation to spend a lot of money on a dream 
 laptop. But that power would sit idle most of the time.
 I'm not training AI models every day of the week, and anyway, when I need that sort of 
 horsepower I can fire up what I need in the cloud for exactly as long as I need it. 
@@ -25,15 +25,14 @@ Result: my PC budget is lean, and I like it that way.
 
 My 2024 choice is a refurbished Dell Latitude 7490, which cost me [$400](https://www.pcliquidations.com/dell-refurbished-laptops) 
 and is a *joy* to use: it's very light, it's fast, and Windows runs very smoothly. 
-Perhaps related, older machines that were used for corporate life are stable: I am not 
+Perhaps related, older machines that were used for corporate life are *stable*: probably because I am not 
 testing out some bleeding-edge hardware and exercising new bugs. All the drivers on my PC 
 have already been through several rounds of updates by the time I get the hardware.
 
-It helps that the machine is from a high-volume supplier to corporations. Microsoft and Dell, 
-say, share the same corporate customer base, a base that doesn't like surprises. This isn't 
+It also helps that the machine is from a high-volume supplier to corporations. Microsoft and Dell share the same corporate customer base. A base that doesn't like surprises. This isn't 
 some consumer-grade gamble from Costco. My 2024 buy is actually a replacement for the same 
 model that I had as my work PC for five years prior: when I surrendered that machine to the 
-IT people I immediately went and bought another for personal use. Current specs:  
+IT people, I immediately went and bought another for personal use. Current specs:  
 16GB RAM, Intel i7 CPU, 500GB of storage, and real ports: Ethernet, audio, USB, Thunderbolt, 
 and full-size HDMI. 
 
@@ -49,7 +48,7 @@ Sure, there are web versions, but try opening a long document or a complex sprea
 Native 365 is better. 
 
 ## Hygiene
-There are at least seven (seven!) ways to install software on your Windows PC:
+There are at least seven (*seven!*) ways to install software on your Windows PC:
 
  - Use the app installer from the supplier's website. For example, go to adobe.com and download Acrobat.
  - Install the app from the Windows Store.
@@ -60,10 +59,10 @@ There are at least seven (seven!) ways to install software on your Windows PC:
  - Use meta-installers that wrap the app in a package manager.
 
 The classic complaint with the Windows experience is that it degrades over time. It's not 
-very surprising, when you consider all the ways that cruft can accumulate. I assert that cruft 
-is the #1 reason why PCs degrade over time. You want PC hygiene? You need to solve for this.
+very surprising, when you consider all the ways that cruft can accumulate. **Cruft 
+is the #1 reason why PCs degrade over time.** You want PC hygiene? You need to solve for this.
 
- - **Recommendation**: remove every last bit of optional software that Microsoft throws at you before you do anything with your PC. 
+ - **Recommendation**: remove every last bit of optional software that Microsoft throws at you, before you do anything with your PC. 
  
  I get rid of the Candy Crush, Solitaire, Photos, Clock, XBox and all the other fluff. 
 They're basically teaser apps that try to drive users to the Microsoft app store anyway, and 
@@ -103,7 +102,7 @@ simpler is better. The web ones tend to degrade over time (enshittification, etc
 screen won't work unless I upgrade to Adobe Cloud. SumatraPDF is faster to start up, faster at rendering long documents, and gives me exactly zero problems. 
  - **For backups**: [OneDrive](https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage) and [Dropbox](https://www.dropbox.com). As a file sharing service, OneDrive for consumers is...meh. As a seamless backup service, it's very good. My PC could blow up tomorrow, I could have a replacement in three days, and my Documents folder would hook up to OneDrive and I'd be back in business. The nit is that cloud services have a habit of evaporating overnight. So, Dropbox is my archival service, *just* in case.
  - **Security, Anti-virus** etc: Microsoft's own suite is perfectly adequate for your PC. Ignore the desperate calls and back-handed attempts by some vendors to get you to install their stuff. Trust me, once you sign up for a 30-day trial of anything, that cruft is never leaving your PC. Avoid.
- - **Web browser**: [Edge](https://www.microsoft.com/en-us/edge) with [uBlock Origin](https://ublockorigin.com/) and [BitWarden](https://bitwarden.com). Edge does some skeevy things, like continually trying to populate my home page with fake news stories of the  "this one weird trick" and "you'll never believe what..." kind. But, it comes with Windows, supports plugins as well as Chrome, and runs very well on battery power when I'm unplugged. So, in keeping with the less-apps-installed-is-better rule, it gets a place. uBlock Origin is absolutely mandatory for all web browsers: Firefox, Chrome, Edge, whatever. The modern web is a cesspool of ads and it's a much calmer and faster experience to browse the web when you're not losing whole chunks of your screen and your attention to ads.
+ - **Web browser**: [Edge](https://www.microsoft.com/en-us/edge) with [uBlock Origin](https://ublockorigin.com/) and [BitWarden](https://bitwarden.com). Edge does some skeevy things, like continually trying to populate my home page with fake news stories of the  "this one weird trick" and "you'll never believe what..." kind. But, it comes with Windows, supports plugins as well as Chrome, and runs very well on battery power when I'm unplugged. So, in keeping with the less-apps-installed-is-better rule, it gets a place. uBlock Origin is absolutely mandatory for all web browsers: Firefox, Chrome, Edge, whatever. The modern web is a cesspool of ads, and it's a much calmer and faster experience to browse the web when you're not losing whole chunks of your screen and your attention to them.
 
 ## Postscript
 Closely related to the concept of PC hygiene is the idea of maximizing the attention you give to productive parts of the computing
@@ -111,7 +110,7 @@ experience and ruthlessly pruning the rest. There was a time, for example, when 
 I had the fancy keyboard and the themed desktop and so on. It did not make me significantly more productive. I could argue that having 
 attention stretched across so much of my visual field reduced it. 
 
-*The most important currency you have to be productive at work is your attention.* Before Slack, Discord, Teams, and the rest, you only had to turn off email in order to have periods of complete focus. If you lose that focus, having a six-screen battlestation with a light up keyboard and your favorite `vi` keybindings won't help you. 
+**The most important currency you have to be productive at work is your attention.** Before Slack, Discord, Teams, and the rest, you only had to turn off email in order to have periods of complete focus. If you lose that focus, having a six-screen battlestation with a light up keyboard and your favorite `vi` keybindings won't help you. 
 
 Try this experiment: go cold turkey for a week. One laptop, no external screen, no peripherals except what you need for ergonomic safety. Every app full screen. All notifications silenced. Use Outlook/Teams etc. in offline mode, so that *you* control when you turn on the firehose of attention-stealing apps. I'm very confident that it will change how your brain works using a PC for the better.
 
