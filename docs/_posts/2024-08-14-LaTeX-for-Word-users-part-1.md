@@ -12,7 +12,8 @@ However, it has a steep learning curve. Whole communities have sprung up to try
  beautiful documents, gives you fine-grained control over everything, and is the
  de facto standard for academic and technical publishing.
 So here is an informal guide that addresses the most common things that you, 
-a Word user, might need to do.
+a Word user, might need to do. In [Part 2](LaTeX-for-Word-users-part-2.html)
+I'll dig deeper with practical tips for switching over.
 
 # Contents
  - [Where to get LaTeX](#where-to-get-latex)
