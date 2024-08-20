@@ -31,6 +31,10 @@ Let's look at some common scenarios that Word users hit when using LaTeX. If you
 The `ulem` package provides even more options e.g., double-underline (`\uuline`)
  and strikethrough (`\sout`), e.g. `\sout{strike me out}`.
 
+![LaTeX sample: charformats]({{ '/assets/imgs/latex-sample-charformats.png' | relative_url }})
+
+
+
 ## Formatting paragraphs
 LaTeX fully-justifies paragraphs by default, and handles all the breaks and
 hyphenation for you. It takes great pains to flow paragraphs in a coherent and
@@ -40,10 +44,27 @@ its choices. That said, you might choose to set some of the following options:
 
 
 ```tex
+% Default: what Word would call 'justified'
+%
+Sing, O goddess, the anger of Achilles son of Peleus, that brought countless 
+ills upon the Achaeans. Many a brave soul did it send hurrying down to Hades, 
+and many a hero did it yield a prey to dogs and vultures, for so were 
+the counsels of Jove fulfilled from the day on which the son of Atreus, 
+king of men, and great Achilles, first fell out with one another.
+
+% Left-aligned
+%
 \begin{flushleft}
-  some text that will be left-aligned...
+  Sing, O goddess, the anger of Achilles son of Peleus, that brought countless 
+  ills upon the Achaeans. Many a brave soul did it send hurrying down to Hades, 
+  and many a hero did it yield a prey to dogs and vultures, for so were 
+  the counsels of Jove fulfilled from the day on which the son of Atreus, 
+  king of men, and great Achilles, first fell out with one another.
 \end{flushleft}
 ```
+
+![LaTeX sample: paraformats]({{ '/assets/imgs/latex-sample-paraformats.png' | relative_url }})
+
 
 The `ragged2e` package provides additional control, notably if you need to
 write a two-column document and you want fine control
