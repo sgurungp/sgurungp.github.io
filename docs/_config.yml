@@ -42,7 +42,7 @@ plugins:
 ## Theme: beautiful-jekyll
 #
 navbar-links:
-  About Me: "about"
+  About: "about"
   Contact:  "contact"
 
 # Links for socials in the footer
