@@ -376,7 +376,7 @@ entering your data. Here's the worked example:
   % them - in which case, delete the | characters.
   \begin{tabular}{ | c || l | r | S | c |  }
 
-    % Whenever we what to draw a horizontal 'border' line, use \hline.
+    % Whenever we want to draw a horizontal 'border' line, use \hline.
     % The booktabs package also offers \toprule, \midrule, and \bottomrule,
     % which some people prefer on aesthetic grounds, but \hline is closest
     % to the style produced by Word.
@@ -455,9 +455,11 @@ the current directory (where your LaTeX document is) or absolute.
 
 Within the body of the document, call the `\includegraphics` command with the 
 name of the file (the extension is not normally needed), e.g.:
+
 ```tex
+% Display the graphic from the monalisa file.
 \includegraphics{monalisa}
-```tex
+```
 
 For more 'formal' image embedding, e.g. you want to be able to cite the picture, 
 such as, "see Figure 1", create a `figure` block, as in this example:
