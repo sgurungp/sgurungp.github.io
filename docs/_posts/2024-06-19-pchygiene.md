@@ -17,8 +17,7 @@ category, so this post is an attempt to record what my setup is and general prin
 
 ## Hardware
 There is always a temptation to spend a lot of money on a dream 
-laptop. But that power would sit idle most of the time.
-I'm not training AI models every day of the week, and anyway, when I need that sort of 
+laptop. But that power would sit idle most of the time if I did. I'm not training AI models every day of the week, and anyway, when I need that sort of 
 horsepower I can fire up what I need in the cloud for exactly as long as I need it. 
 My gaming is done on a PlayStation, so I'm free and clear of the main reasons to drop $$$. 
 Result: my PC budget is lean, and I like it that way. 
@@ -114,7 +113,6 @@ attention stretched across so much of my visual field reduced it.
 
 Try this experiment: go cold turkey for a week. One laptop, no external screen, no peripherals except what you need for ergonomic safety. Every app full screen. All notifications silenced. Use Outlook/Teams etc. in offline mode, so that *you* control when you turn on the firehose of attention-stealing apps. I'm very confident that it will change how your brain works using a PC for the better.
 
-So there you have it. Pick decent but cheap hardware, run as little a possible on it,  
-keep track of what you install, and protect your attention. 
+So there you have it. Pick decent but cheap hardware, run as little a possible on it, keep track of what you install, and protect your attention. 
 
 *Got a suggestion for 2025's stack? Let me know.*
