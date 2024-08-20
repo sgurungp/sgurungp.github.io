@@ -206,14 +206,17 @@ type Vietnamese, or include the Indian Rupee symbol, search for a suitable
 package on the [CTAN archive](https://ctan.org/search).
 
 ### I used quotation marks, but they look weird
+
+For example:
+
+![LaTeX sample: badquotes]({{ '/assets/imgs/latex-sample-badquotes.png' | relative_url }})
+
 Word converts opening and closing quotation marks into a more visually-pleasing
 pair of "smart quotes". To get this effect in LaTeX, use one or two backquotes
 `` ` `` to open and the matching single `'` or `"` to close.
 
-![LaTeX sample: badquotes]({{ '/assets/imgs/latex-sample-badquotes.png' | relative_url }})
-
 ```tex
-``Happiness", she said, ``is a full order book."
+``Happiness," she said, ``is a full order book."
 ```
 
 ![LaTeX sample: goodquotes]({{ '/assets/imgs/latex-sample-goodquotes.png' | relative_url }})
