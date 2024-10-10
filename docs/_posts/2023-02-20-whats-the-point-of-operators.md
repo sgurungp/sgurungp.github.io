@@ -8,11 +8,11 @@ One night last year, a man and his colleagues stood outside in the cold and film
 a [short selfie video](https://youtu.be/48I00K4nJJk 'Zelenskyy's video after Russian attack'). 
 The effect was electrifying. _We are here. We're going to fight._
 
-That message was carried by a telco operator. 
+That message was carried by a wireless telco operator. 
 When you post, or stream video, from your phone, it sets up a channel to carry the data across 
 the ether to the nearest cell tower, which in turn sends it to a piece of software,
 rather grandly called a packet core. Cell towers, packet cores, and all the infrastructure needed 
-to get your data to the Internet are run by telco operators. Now that we live in a world where a 
+to get your data to the Internet are run by these wireless operators. Now that we live in a world where a 
 tweets and videos rally a populace to fight, it's worth restating: 
 this network stuff is _important_.
 
@@ -56,7 +56,7 @@ are good at, and, if they won't, what should we do? There are a couple of ways t
 
    Or you could take a deep breath and buy content. I can think of only one operator that has pulled this off,
    Comcast (NBC Universal, 2011), and you could argue that they already knew what they were doing since they
-   owned several TV channels and media properties already. The others...eh, not so much. 
+   owned several TV channels and media properties already. And, were not a wireless operator in their DNA. The others...eh, not so much. 
    AT&T/TimeWarner (2018) is now a business school [case study](https://rbr.business.rutgers.edu/sites/default/files/documents/rbr-060309.pdf) in failure 
    and the best that analysts could find to say about Verizon/AOL/Yahoo was "at least you only burned $4B" 
    ([CNBC report](https://www.cnbc.com/2018/12/11/verizon-made-the-right-decision-not-to-be-big-on-media.html)). 
@@ -70,27 +70,27 @@ are good at, and, if they won't, what should we do? There are a couple of ways t
    as opposed to merely rent-seeking. Mobile data traffic on AT&T increased by a factor of 1,000 in just seven years 
    to 2014. None of that was AT&T's doing: they just got crushed by the combination of phones that could handle video
    and Netflix being more than happy to oblige. It's anybody's guess whether we have reached "peak data", but, assuming
-   not, then networks are going to continue to be capacity constrained, and operators are going to continue to ask 
+   not, then networks are going to continue to be capacity constrained, and wireless operators are going to continue to ask 
    their governments and regulators for relief. In a supreme irony, operators have such an unfortunate reputation for 
    taking government funds and not delivering on their promises that this path may end up being closed to them for 
    political reasons. 
    
 4. Consumers are fickle gods. Let's sell more to businesses.
 
-   Internet service. Private 5G networks. Office 365 seats. Security features. Operators could sell these and other products. But here's the
-   unpleasant secret about operators: the most lucrative products either have terrible margin or high customer acquisition costs for them.
-   An operator can sell a ten thousand 365 seats...but most of that money goes to Microsoft. They can sell Internet circuits
+   Internet service. Private 5G networks. Office 365 seats. Security features. Wireless operators could sell these and other products. But here's the
+   unpleasant secret about operators: the most lucrative products either have terrible margin, high customer acquisition costs, or are not available to wireless telcos.
+   An operator can sell a ten thousand 365 seats...but most of that money goes to Microsoft. They can sell Internet circuits, bit that's not a wireless play by definition. Fixed operators can sell this 
    ("DIA", in the lingo) with their eyes closed...but it takes 60 days at best before the customer is generating money, because
    the address has to be checked in a giant IT system to see if fiber passes the building, someone has to order a box for the customer, the customer
    needs to successfully install the box (or the operator has to do a truck roll), ...and DIA is the *easy* case that, the one that
    operator sales people love to sell. Try getting them to sell private 5G or hosted voice PBX services and they will nod and smile
-   and mentally calculate how much quicker their commission check arrives if they just carry on selling Internet. 
+   and mentally calculate how much quicker their commission check arrives if they just carry on selling Internet. (Notable exception here are the smaller fiber operators that serve their communities, who can get you service in a far more respectable timeframe.)
    
 6. Shareholders above all. Squeeze every penny out of the customers that stay, and jettison the rest
 
    This is the easy button, up to a point. Did your bill go up, for no obvious reason? Congratulations, your operator
    is in this bucket. Cell service is remarkably sticky (churn rates are under 2%, and 2% would be considered worryingly high).
-   What about the jettisoning part? If your operator serves fixed (landline) customers, they would love love *love* to be able to move these
+   What about the jettisoning part? If your large wireless operator also serves fixed (landline) customers, they would love love *love* to be able to move these
    customers over to cell service or junk them completely. Unfortunately regulators like the US FCC take a dim view of that, and it doesn't help
    that the places with a lot of legacy landlines also tend to be in rural places that don't have good cell coverage. We won't see
    any movement here until a more agreeable regulatory and legislative environment takes shape. It's been possible to deliver voice over Internet and over cell service
